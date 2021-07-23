@@ -44,7 +44,7 @@ jobs:
     
         shell: cmd
       - name: kaboom jackpot
-        run: tar -czf bin.tar.gz C:/haxelib/haxe/lib/extension-webm
+        run: tar -czf bin.tar.gz C:/haxelib/extension-webm
       - name: Publish Artifact
         uses: actions/upload-artifact@v2
         with:
