@@ -38,9 +38,10 @@ jobs:
           haxelib install flixel-tools
           haxelib install flixel-ui
           haxelib install flixel-addons
-		  haxelib install actuate
-		  haxelib git extension-webm https://github.com/KadeDev/extension-webm
-		  lime rebuild extension-webm windows
+          haxelib install actuate
+          haxelib git extension-webm https://github.com/KadeDev/extension-webm
+          lime rebuild extension-webm windows
+    
         shell: cmd
       - name: kaboom jackpot
         run: tar -czf bin.tar.gz C:/haxelib/haxe/lib/extension-webm
